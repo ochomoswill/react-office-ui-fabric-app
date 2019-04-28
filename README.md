@@ -52,6 +52,10 @@ npm start
 npm run build
 ```
 
+## Acknowledgement
+Great thanks to [Guzman Monne](https://github.com/guzmonne): 
+* [Simple app layout with Office UI Fabric React ](https://medium.com/@gmonne/simple-app-layout-with-office-ui-fabric-react-2eac6361e1b4)
+
  
 
 
