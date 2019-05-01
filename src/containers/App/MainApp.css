@@ -64,6 +64,16 @@ header and footer components.
     height: 4em;
 }
 
-.body .container {
+/*.body .container {
     padding: 0 25px;
+}*/
+
+
+.content{
+    background-color: #faf9f8;
+    flex-basis: 0;
+    flex-grow: 1;
+    /*height: calc(100vh - 100px);*/
+    overflow-y: auto;
+    padding: 0 40px 64px 32px;
 }

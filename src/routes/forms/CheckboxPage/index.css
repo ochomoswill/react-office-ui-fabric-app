@@ -1,0 +1,24 @@
+h1.Heading {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 20px 0 40px;
+}
+
+h2.Heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.App p {
+    margin: 0 0 16px;
+}
+
+.ContentCard {
+    -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132), 0 0.3px 0.9px 0 rgba(0,0,0,.108);
+    box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132), 0 0.3px 0.9px 0 rgba(0,0,0,.108);
+    background-color: #fff;
+    margin-bottom: 40px;
+    max-width: 1104px;
+    min-height: 200px;
+    padding: 8px 40px 40px;
+}

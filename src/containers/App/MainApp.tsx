@@ -9,7 +9,7 @@ class MainApp extends React.Component {
     public render() {
 
         // @ts-ignore
-        const {match} = this.props;
+        const {match, location} = this.props;
 
         return (
             <div className="App">
@@ -19,7 +19,7 @@ class MainApp extends React.Component {
                     <div className="body">
                         <App match={match}/>
                         <div className="sidebar">
-                            <Sidebar match={match}/>
+                            <Sidebar match={match} location={location}/>
                         </div>
                     </div>
                     {/*<div className="footer">
