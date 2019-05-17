@@ -7,7 +7,9 @@ import './assets/css/index.css';
 import App from './containers/App/index';
 import registerServiceWorker from './registerServiceWorker';
 
+
 initializeIcons();
+// @ts-ignore
 ReactDOM.render(
     <Router>
         <Switch>

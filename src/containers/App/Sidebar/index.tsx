@@ -34,6 +34,7 @@ const SidebarMenu = ({match, location}) => {
                         overflowY: 'auto',
                         width: '100%',
                     }
+
                 }}
                 groups={[
                     {
